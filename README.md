@@ -6,7 +6,58 @@ Este projeto tem como objetivo desenvolver um aplicativo que facilita o gerencia
 
 O aplicativo de gestão universitária visa otimizar a administração de cadastros e validação de informações, além de gerenciar os pagamentos de maneira ágil e simples. Ele oferece diferentes funcionalidades para atender a alunos, professores, administradores e fornecedores de forma eficiente. O sistema automatiza processos e melhora a experiência de todos os usuários.
 
-## Funcionalidades do Aplicativo
+>>> vou deixar de forma resumida e mais completa, mas a outra ainda não arrumei certinho com as telas que estão terminando...
+
+## Funcionalidades do Aplicativo de Gestão Universitária
+
+### Cadastro de Conta
+- Cadastro de conta de aluno, professor ou fornecedor.
+- Preenchimento de informações pessoais (nome, CPF, e-mail, etc.).
+- Upload de documentos obrigatórios (ex: RG, diploma, CNPJ).
+- Validação de dados e documentos pelo administrador.
+- Edição de cadastro em caso de dados incorretos ou incompletos.
+- Exibição do status do cadastro (Aguardando Validação, Aprovado, Rejeitado).
+
+### Login e Acesso
+- Login com e-mail e senha.
+- Opção para recuperação de senha.
+- Mensagem de boas-vindas com o logo da universidade.
+- Redirecionamento para a tela de seleção de formulário conforme tipo de usuário.
+
+### Seleção de Formulário
+- Escolha entre cadastro de Aluno, Professor ou Fornecedor.
+- Exibição dos documentos necessários para cada tipo de cadastro.
+- Link para corrigir dados caso a validação tenha sido rejeitada.
+
+### Validação de Cadastro e Documentos (Administrador)
+- Visualização das solicitações pendentes de cadastro.
+- Ação para aprovar ou rejeitar cadastros.
+- Justificativa obrigatória ao rejeitar um cadastro.
+- Exibição e download dos documentos enviados pelos usuários.
+
+### Edição de Cadastro
+- Correção de dados e documentos após rejeição.
+- Envio de novos documentos para aprovação.
+- Mensagens informando quais dados ou documentos precisam ser corrigidos.
+
+### Gestão de Pagamentos (Alunos)
+- Visualização do resumo de pagamento (valor, prazo, forma de pagamento).
+- Status de pagamento (Pendente, Concluído, Erro no pagamento).
+- Geração de boleto ou opção de pagamento online.
+- Reenvio de pagamento em caso de erro.
+
+### Pós-Cadastro
+- **Alunos:** Inscrição em disciplinas, com filtros por curso e semestre.
+- **Professores:** Inscrição para ministrar disciplinas, turmas e horários disponíveis.
+- **Fornecedores:** Envio de propostas e gerenciamento de contratos.
+
+### Relatórios e Painel Administrativo
+- Resumo de cadastros aprovados e pendentes.
+- Gráficos de distribuição de alunos por curso e fornecedores por categoria.
+- Histórico de validações realizadas.
+- Exportação de relatórios (PDF, 
+
+----------------
 
 ### 1. Tela Inicial / Login
 
