@@ -165,3 +165,5 @@ O aplicativo de gestão universitária visa otimizar a administração de cadast
 
 ## Diagrama de Classe
 ![Descrição da Imagem](Documentacao/diag_img_1.png)
+
+## Colocar as outras Imagens
