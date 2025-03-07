@@ -1,12 +1,11 @@
 # EducaAccessControl
+>>> Enfim, tentei fazer mais de um método de explicação, não sei qual vai ficar melhor, deixei um de maneira resumida no inicio e um com a descrição tela por tela, mas ainda não sei qual é melhor. Na parte dos diagramas eu resumi os casos de uso, não sei se querem incluir ou não, qualquer coisa podem remover.
 
 Este projeto tem como objetivo desenvolver um aplicativo que facilita o gerenciamento de alunos, professores e fornecedores na universidade, incluindo cadastro, validação de documentos e processos de pagamento.
 
 ## Visão Geral
 
 O aplicativo de gestão universitária visa otimizar a administração de cadastros e validação de informações, além de gerenciar os pagamentos de maneira ágil e simples. Ele oferece diferentes funcionalidades para atender a alunos, professores, administradores e fornecedores de forma eficiente. O sistema automatiza processos e melhora a experiência de todos os usuários.
-
->>> vou deixar de forma resumida e mais completa, mas a outra ainda não arrumei certinho com as telas que estão terminando...
 
 ## Funcionalidades do Aplicativo
 
