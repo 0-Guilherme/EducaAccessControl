@@ -56,8 +56,6 @@ O aplicativo de gestão universitária visa otimizar a administração de cadast
 - Histórico de validações realizadas.
 - Exportação de relatórios (PDF, 
 
-----------------
-
 ---
 
 ## 1. Tela de Cadastro no Sistema
@@ -68,16 +66,12 @@ O aplicativo de gestão universitária visa otimizar a administração de cadast
   - **Pessoa Física**
   - **Pessoa Jurídica**
 
----
-
 ## 2. Tela de Escolha para Pessoa Física ou Jurídica
 **Objetivo:** Direcionar o usuário para o fluxo correto conforme a sua escolha.
 
 ### Fluxos:
 - **Pessoa Jurídica:** Leva diretamente para a tela de cadastro de Fornecedor.
 - **Pessoa Física:** Apresenta opções para escolher entre Professor ou Aluno.
-
----
 
 ## 3. Tela de Cadastro de Pessoa Jurídica (Fornecedor)
 **Objetivo:** Coletar os dados e documentos necessários de Pessoas Jurídicas.
@@ -92,8 +86,6 @@ O aplicativo de gestão universitária visa otimizar a administração de cadast
 - Validação dos campos no frontend para garantir que os dados estejam corretos antes de enviar.
 - Botão para envio do formulário.
 
----
-
 ## 4. Tela de Escolha de Pessoa Física
 **Objetivo:** Permitir que o usuário escolha entre os perfis de Professor ou Aluno.
 
@@ -101,8 +93,6 @@ O aplicativo de gestão universitária visa otimizar a administração de cadast
 - Botões para selecionar:
   - **Professor**
   - **Aluno**
-
----
 
 ## 5. Tela de Cadastro de Pessoa Física - Professor
 **Objetivo:** Coletar os dados necessários de Professores.
@@ -116,8 +106,6 @@ O aplicativo de gestão universitária visa otimizar a administração de cadast
 - Upload de documentos obrigatórios (ex.: RG, diplomas).
 - Botão para envio do formulário.
 
----
-
 ## 6. Tela de Cadastro de Pessoa Física - Aluno
 **Objetivo:** Coletar os dados necessários de Alunos.
 
@@ -130,8 +118,6 @@ O aplicativo de gestão universitária visa otimizar a administração de cadast
   - Data de Nascimento
 - Upload de documentos obrigatórios (ex.: RG, comprovante de matrícula).
 - Botão para envio do formulário.
-
----
 
 ## 7. Tela de Pagamento (Para Alunos)
 **Objetivo:** Gerenciar os pagamentos realizados pelos Alunos.
