@@ -59,56 +59,46 @@ O aplicativo EducaAccessControl visa otimizar a administração de cadastros e v
 - Histórico de validações realizadas.
 - Exportação de relatórios em **PDF** ou **Excel**.
 
-## Descrição Tela por Tela
+## Descrição
 
 ### 1. Tela de Cadastro no Sistema
-**Objetivo:** Iniciar o processo de cadastro, permitindo a escolha entre Pessoa Física ou Jurídica.
+**Objetivo:** Iniciar o processo de cadastro, permitindo a escolha entre Pessoa Física ou Pessoa Jurídica.
 
-**Funcionalidades:**
-- Botões para selecionar:
-  - **Pessoa Física**
-  - **Pessoa Jurídica**
-
-### 2. Tela de Escolha para Pessoa Física ou Jurídica
-**Objetivo:** Direcionar o usuário para o fluxo correspondente.
-
-**Fluxos:**
-- **Pessoa Jurídica:** Encaminha para o cadastro de Fornecedor.
-- **Pessoa Física:** Apresenta opções para Professor ou Aluno.
-
-### 3. Tela de Cadastro de Pessoa Jurídica (Fornecedor)
-**Objetivo:** Coletar os dados e documentos necessários.
+### 2. Tela de Cadastro de Pessoa Jurídica
+**Objetivo:** Coletar os dados e documentos necessários para cadastro de Pessoas Jurídicas.
 
 **Funcionalidades:**
 - Formulário com campos como:
-  - Nome da Empresa
+  - Razão Social
+  - Nome Fantasia
   - CNPJ
-  - Endereço
-  - Representante Legal
-- Upload de documentos obrigatórios (ex.: Contrato Social, Comprovante de Endereço).
+  - ...
 - Botão para envio do formulário.
 
-### 4. Tela de Escolha de Pessoa Física
-**Objetivo:** Permitir a escolha entre os perfis de Professor ou Aluno.
+### 2.1 Tela de Cadastro de Fornecedores
+**Objetivo:** 
 
 **Funcionalidades:**
-- Botões para selecionar:
-  - **Professor**
-  - **Aluno**
+- Formulário com campos como:
+  - 
+  - 
+  - 
+  - 
 
-### 5. Tela de Cadastro de Pessoa Física - Professor
-**Objetivo:** Coletar os dados necessários para Professores.
+
+### 3. Tela de Cadastro de Pessoa Física
+**Objetivo:** Coletar os dados e documentos necessários para cadastro de Pessoas Físicas, como Alunos e Professores.
 
 **Funcionalidades:**
-- Campos como:
-  - Nome
+- Formulário com campos como:
+  - Nome Completo
   - CPF
-  - Área de Atuação
-  - Especialidade
-- Upload de documentos obrigatórios (ex.: RG, Diplomas).
-- Botão de envio.
+  - Data de Nascimento
+  - Escolha entre Aluno e Professor
+  - Endereço
+- Botão para envio do formulário.
 
-### 6. Tela de Cadastro de Pessoa Física - Aluno
+### 3.1 Tela de Cadastro de Pessoa Física - Aluno
 **Objetivo:** Coletar os dados necessários para Alunos.
 
 **Funcionalidades:**
@@ -121,7 +111,7 @@ O aplicativo EducaAccessControl visa otimizar a administração de cadastros e v
 - Upload de documentos obrigatórios (ex.: RG, Comprovante de Matrícula).
 - Botão de envio.
 
-### 7. Tela de Pagamento (Para Alunos)
+### 3.1.1 Tela de Pagamento (Para Alunos)
 **Objetivo:** Gerenciar pagamentos realizados pelos Alunos.
 
 **Funcionalidades:**
@@ -134,6 +124,18 @@ O aplicativo EducaAccessControl visa otimizar a administração de cadastros e v
   - **Concluído**
   - **Erro no Pagamento**
 - Botão para reencaminhar o pagamento em caso de falha.
+
+### 3.2 Tela de Cadastro de Pessoa Física
+**Objetivo:** Coletar os dados necessários para Professores.
+
+**Funcionalidades:**
+- Campos como:
+  - Nome
+  - CPF
+  - Área de Atuação
+  - Especialidade
+- Upload de documentos obrigatórios (ex.: RG, Diplomas).
+- Botão de envio.
 
 ## Casos de Uso
 
