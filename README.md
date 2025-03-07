@@ -1,5 +1,4 @@
 # EducaAccessControl
-# Projeto de Aplicativo de Gestão Universitária
 
 Este projeto tem como objetivo desenvolver um aplicativo que facilita o gerenciamento de alunos, professores e fornecedores na universidade, incluindo cadastro, validação de documentos e processos de pagamento.
 
