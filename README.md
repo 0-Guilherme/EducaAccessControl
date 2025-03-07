@@ -1,32 +1,35 @@
 # EducaAccessControl
->>> Enfim, tentei fazer mais de um método de explicação, não sei qual vai ficar melhor, deixei um de maneira resumida no inicio e um com a descrição tela por tela, mas ainda não sei qual é melhor. Fiquem a vontade para mudar o que for necessário!
 
-Este projeto tem como objetivo desenvolver um aplicativo que facilita o gerenciamento de alunos, professores e fornecedores na universidade, incluindo cadastro, validação de documentos e processos de pagamento.
+> **Nota:** Este projeto inclui explicações de maneira resumida no início e com descrições detalhadas tela por tela a seguir. Fique à vontade para ajustar conforme necessário!
+
+## Objetivo do Projeto
+
+Este projeto tem como objetivo desenvolver um aplicativo que facilita o gerenciamento de alunos, professores e fornecedores na universidade. Ele abrange processos de cadastro, validação de documentos e gestão de pagamentos.
 
 ## Visão Geral
 
-O aplicativo de gestão universitária visa otimizar a administração de cadastros e validação de informações, além de gerenciar os pagamentos de maneira ágil e simples. Ele oferece diferentes funcionalidades para atender a alunos, professores, administradores e fornecedores de forma eficiente. O sistema automatiza processos e melhora a experiência de todos os usuários.
+O aplicativo EducaAccessControl visa otimizar a administração de cadastros e validação de informações, além de gerenciar pagamentos de maneira ágil e simples. Ele foi projetado para atender diferentes perfis de usuários: alunos, professores, administradores e fornecedores, automatizando processos e melhorando a experiência de uso.
 
 ## Funcionalidades do Aplicativo
 
 ### Cadastro de Conta
 - Cadastro de conta de aluno, professor ou fornecedor.
 - Preenchimento de informações pessoais (nome, CPF, e-mail, etc.).
-- Upload de documentos obrigatórios (ex: RG, diploma, CNPJ).
+- Upload de documentos obrigatórios (ex.: RG, diploma, CNPJ).
 - Validação de dados e documentos pelo administrador.
 - Edição de cadastro em caso de dados incorretos ou incompletos.
-- Exibição do status do cadastro (Aguardando Validação, Aprovado, Rejeitado).
+- Exibição do status do cadastro: **Aguardando Validação**, **Aprovado**, **Rejeitado**.
 
 ### Login e Acesso
 - Login com e-mail e senha.
 - Opção para recuperação de senha.
 - Mensagem de boas-vindas com o logo da universidade.
-- Redirecionamento para a tela de seleção de formulário conforme tipo de usuário.
+- Redirecionamento para a tela de seleção de formulário conforme o tipo de usuário.
 
 ### Seleção de Formulário
-- Escolha entre cadastro de Aluno, Professor ou Fornecedor.
+- Escolha entre cadastro de **Aluno**, **Professor** ou **Fornecedor**.
 - Exibição dos documentos necessários para cada tipo de cadastro.
-- Link para corrigir dados caso a validação tenha sido rejeitada.
+- Link para corrigir dados em caso de validação rejeitada.
 
 ### Validação de Cadastro e Documentos (Administrador)
 - Visualização das solicitações pendentes de cadastro.
@@ -40,8 +43,8 @@ O aplicativo de gestão universitária visa otimizar a administração de cadast
 - Mensagens informando quais dados ou documentos precisam ser corrigidos.
 
 ### Gestão de Pagamentos (Alunos)
-- Visualização do resumo de pagamento (valor, prazo, forma de pagamento).
-- Status de pagamento (Pendente, Concluído, Erro no pagamento).
+- Resumo do pagamento: valor, prazo, forma de pagamento.
+- Status do pagamento: **Pendente**, **Concluído**, **Erro no Pagamento**.
 - Geração de boleto ou opção de pagamento online.
 - Reenvio de pagamento em caso de erro.
 
@@ -54,90 +57,90 @@ O aplicativo de gestão universitária visa otimizar a administração de cadast
 - Resumo de cadastros aprovados e pendentes.
 - Gráficos de distribuição de alunos por curso e fornecedores por categoria.
 - Histórico de validações realizadas.
-- Exportação de relatórios (PDF, 
+- Exportação de relatórios em **PDF** ou **Excel**.
 
----
+## Descrição Tela por Tela
 
-## 1. Tela de Cadastro no Sistema
+### 1. Tela de Cadastro no Sistema
 **Objetivo:** Iniciar o processo de cadastro, permitindo a escolha entre Pessoa Física ou Jurídica.
 
-### Funcionalidades:
+**Funcionalidades:**
 - Botões para selecionar:
   - **Pessoa Física**
   - **Pessoa Jurídica**
 
-## 2. Tela de Escolha para Pessoa Física ou Jurídica
-**Objetivo:** Direcionar o usuário para o fluxo correto conforme a sua escolha.
+### 2. Tela de Escolha para Pessoa Física ou Jurídica
+**Objetivo:** Direcionar o usuário para o fluxo correspondente.
 
-### Fluxos:
-- **Pessoa Jurídica:** Leva diretamente para a tela de cadastro de Fornecedor.
-- **Pessoa Física:** Apresenta opções para escolher entre Professor ou Aluno.
+**Fluxos:**
+- **Pessoa Jurídica:** Encaminha para o cadastro de Fornecedor.
+- **Pessoa Física:** Apresenta opções para Professor ou Aluno.
 
-## 3. Tela de Cadastro de Pessoa Jurídica (Fornecedor)
-**Objetivo:** Coletar os dados e documentos necessários de Pessoas Jurídicas.
+### 3. Tela de Cadastro de Pessoa Jurídica (Fornecedor)
+**Objetivo:** Coletar os dados e documentos necessários.
 
-### Funcionalidades:
-- Formulário com os seguintes campos:
+**Funcionalidades:**
+- Formulário com campos como:
   - Nome da Empresa
   - CNPJ
   - Endereço
   - Representante Legal
-- Upload de documentos obrigatórios (ex.: contrato social, comprovante de endereço).
-- Validação dos campos no frontend para garantir que os dados estejam corretos antes de enviar.
+- Upload de documentos obrigatórios (ex.: Contrato Social, Comprovante de Endereço).
 - Botão para envio do formulário.
 
-## 4. Tela de Escolha de Pessoa Física
-**Objetivo:** Permitir que o usuário escolha entre os perfis de Professor ou Aluno.
+### 4. Tela de Escolha de Pessoa Física
+**Objetivo:** Permitir a escolha entre os perfis de Professor ou Aluno.
 
-### Funcionalidades:
+**Funcionalidades:**
 - Botões para selecionar:
   - **Professor**
   - **Aluno**
 
-## 5. Tela de Cadastro de Pessoa Física - Professor
-**Objetivo:** Coletar os dados necessários de Professores.
+### 5. Tela de Cadastro de Pessoa Física - Professor
+**Objetivo:** Coletar os dados necessários para Professores.
 
-### Funcionalidades:
-- Formulário com os seguintes campos:
+**Funcionalidades:**
+- Campos como:
   - Nome
   - CPF
   - Área de Atuação
   - Especialidade
-- Upload de documentos obrigatórios (ex.: RG, diplomas).
-- Botão para envio do formulário.
+- Upload de documentos obrigatórios (ex.: RG, Diplomas).
+- Botão de envio.
 
-## 6. Tela de Cadastro de Pessoa Física - Aluno
-**Objetivo:** Coletar os dados necessários de Alunos.
+### 6. Tela de Cadastro de Pessoa Física - Aluno
+**Objetivo:** Coletar os dados necessários para Alunos.
 
-### Funcionalidades:
-- Formulário com os seguintes campos:
+**Funcionalidades:**
+- Campos como:
   - Nome
   - CPF
   - Curso
   - Matrícula
   - Data de Nascimento
-- Upload de documentos obrigatórios (ex.: RG, comprovante de matrícula).
-- Botão para envio do formulário.
+- Upload de documentos obrigatórios (ex.: RG, Comprovante de Matrícula).
+- Botão de envio.
 
-## 7. Tela de Pagamento (Para Alunos)
-**Objetivo:** Gerenciar os pagamentos realizados pelos Alunos.
+### 7. Tela de Pagamento (Para Alunos)
+**Objetivo:** Gerenciar pagamentos realizados pelos Alunos.
 
-### Funcionalidades:
+**Funcionalidades:**
 - Resumo do pagamento, incluindo:
   - Valor
   - Prazo
-  - Forma de pagamento disponível (boleto, cartão de crédito, etc.).
+  - Forma de pagamento (Boleto, Cartão de Crédito).
 - Status do pagamento:
   - **Pendente**
   - **Concluído**
   - **Erro no Pagamento**
-- Botão para reencaminhar o pagamento em caso de 
+- Botão para reencaminhar o pagamento em caso de falha.
 
 ## Casos de Uso
 
-![Descrição da Imagem](Documentacao/req_img_1.png)
+![Casos de Uso](Documentacao/req_img_1.png)
 
 ## Diagrama de Classe
-![Descrição da Imagem](Documentacao/diag_img_1.png)
 
-## Colocar as outras Imagens
+![Diagrama de Classe](Documentacao/diag_img_1.png)
+
+> **Nota:** Adicione as imagens complementares à documentação para maior clareza.
