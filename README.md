@@ -1,7 +1,5 @@
 # EducaAccessControl
 
-> **Nota:** Este projeto inclui explicações de maneira resumida no início e com descrições detalhadas tela por tela a seguir. Fique à vontade para ajustar conforme necessário!
-
 ## Objetivo do Projeto
 
 Este projeto tem como objetivo desenvolver um aplicativo que facilita o gerenciamento de alunos, professores e fornecedores na universidade. Ele abrange processos de cadastro, validação de documentos e gestão de pagamentos.
