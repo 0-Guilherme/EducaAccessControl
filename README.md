@@ -229,19 +229,9 @@ O aplicativo de gestão universitária visa otimizar a administração de cadast
 7. O sistema envia um e-mail para o professor informando o sucesso do cadastro.
 8. O professor pode se inscrever para ministrar as disciplinas.
 
-**Fluxos Alternativos:**
-
-**Documentos ou dados inválidos:**
-1. No passo 5, se os dados ou documentos do professor estiverem incorretos, o sistema envia um alerta de falha na validação de documentos.
-2. O administrador envia um link para o professor redirecionando para o passo 1.
-
-**Edição do Cadastro:**
-1. O Professor seleciona o formulário de cadastro.
-2. O Professor insere seus novos dados no formulário.
-3. O Professor realiza o upload dos novos documentos.
-4. O Professor clica no botão para enviar o formulário.
-5. O administrador valida os dados e documentos do professor. [UC002] – Validar Documentos (fluxo alternativo 1).
-6. O sistema altera os dados do professor no banco de dados da universidade.
+**Fluxos Alternativo:**
+- **Documentos ou dados inválidos:** Se os dados ou documentos estiverem incorretos, o sistema envia um alerta de falha e o administrador envia um link para o professor refazer o cadastro.
+- **Edição do Cadastro:** O Professor atualiza seus dados e envia o formulário com os documentos corrigidos. O administrador valida as informações e, após aprovação, o sistema atualiza os dados do professor no banco de dados.
 
 ### [UC006] Cadastrar Fornecedores
 
@@ -260,18 +250,8 @@ O aplicativo de gestão universitária visa otimizar a administração de cadast
 8. O fornecedor pode prover a universidade.
 
 **Fluxos Alternativos:**
-
-**Documentos ou dados inválidos:**
-1. No passo 5, se os dados ou documentos do fornecedor estiverem incorretos, o sistema envia um alerta de falha na validação de documentos.
-2. O administrador envia um link para o fornecedor redirecionando para o passo 1.
-
-**Edição do Cadastro:**
-1. O Fornecedor seleciona o formulário de cadastro.
-2. O Fornecedor insere seus novos dados no formulário.
-3. O Fornecedor realiza o upload dos novos documentos.
-4. O Fornecedor clica no botão para enviar o formulário.
-5. O administrador valida os dados e documentos do fornecedor. [UC002] – Validar Documentos (fluxo alternativo 1).
-6. O sistema altera os dados do fornecedor no banco de dados da universidade.
+- **Documentos ou dados inválidos:** Se os dados ou documentos do fornecedor estiverem incorretos, o sistema envia um alerta de falha e o administrador envia um link para o fornecedor refazer o cadastro.
+- **Edição do Cadastro:** O Fornecedor atualiza seus dados e documentos no formulário e envia para o administrador. Após a validação, o sistema atualiza as informações do fornecedor no banco de dados.
 
 ## Diagrama de Classe
 ![Descrição da Imagem](Documentacao/diag_img_1.png)
