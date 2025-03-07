@@ -159,4 +159,7 @@ O aplicativo de gestão universitária visa otimizar a administração de cadast
 
 **Fluxo Principal:**
 1. O administrador valida os documentos.
-2. Se algum documento for inválido, um alerta será enviado para o aluno com um link para corrigir o 
+2. Se algum documento for inválido, um alerta será enviado para o aluno com um link para corrigir os dados.
+
+![Descrição da Imagem](Documentacao/diag_img_1.png)
+![Descrição da Imagem](Documentacao/req_img_1.png)
