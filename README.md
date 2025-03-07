@@ -58,94 +58,94 @@ O aplicativo de gestão universitária visa otimizar a administração de cadast
 
 ----------------
 
-### 1. Tela Inicial / Login
+---
 
-**Objetivo:** Controlar o acesso ao sistema e direcionar os usuários para as funcionalidades adequadas.
+## 1. Tela de Cadastro no Sistema
+**Objetivo:** Iniciar o processo de cadastro, permitindo a escolha entre Pessoa Física ou Jurídica.
 
-**O que você encontrará:**
-- Campos para inserção de e-mail e senha.
-- Opção de recuperação de senha em caso de esquecimento.
-- Link para criar uma nova conta (cadastro).
-- Mensagem de boas-vindas com o logo da universidade.
+### Funcionalidades:
+- Botões para selecionar:
+  - **Pessoa Física**
+  - **Pessoa Jurídica**
 
-### 2. Tela de Seleção de Formulário
+---
 
-**Objetivo:** Permitir que o usuário escolha qual tipo de cadastro deseja realizar.
+## 2. Tela de Escolha para Pessoa Física ou Jurídica
+**Objetivo:** Direcionar o usuário para o fluxo correto conforme a sua escolha.
 
-**O que você encontrará:**
-- Botões para selecionar entre as opções de cadastro: Aluno, Professor ou Fornecedor.
-- Informações claras sobre os requisitos para cada tipo de cadastro (documentos necessários, por exemplo).
-- Opção de reenvio para corrigir dados, caso necessário.
+### Fluxos:
+- **Pessoa Jurídica:** Leva diretamente para a tela de cadastro de Fornecedor.
+- **Pessoa Física:** Apresenta opções para escolher entre Professor ou Aluno.
 
-### 3. Tela de Cadastro
+---
 
-**Objetivo:** Coletar dados do usuário e os documentos necessários para validação.
+## 3. Tela de Cadastro de Pessoa Jurídica (Fornecedor)
+**Objetivo:** Coletar os dados e documentos necessários de Pessoas Jurídicas.
 
-**O que você encontrará:**
-- Formulário dinâmico que se adapta conforme o tipo de usuário:
-  - Aluno: Nome, CPF, curso, matrícula, data de nascimento.
-  - Professor: Nome, CPF, área de atuação, especialidade.
-  - Fornecedor: Nome da empresa, CNPJ, endereço, representante legal.
-- Campo para fazer o upload de documentos obrigatórios (ex: RG, comprovantes, diplomas).
+### Funcionalidades:
+- Formulário com os seguintes campos:
+  - Nome da Empresa
+  - CNPJ
+  - Endereço
+  - Representante Legal
+- Upload de documentos obrigatórios (ex.: contrato social, comprovante de endereço).
 - Validação dos campos no frontend para garantir que os dados estejam corretos antes de enviar.
-- Botão para enviar o formulário.
+- Botão para envio do formulário.
 
-### 4. Tela de Validação pelo Administrador
+---
 
-**Objetivo:** Permitir que o administrador revise, aprove ou rejeite os cadastros e documentos.
+## 4. Tela de Escolha de Pessoa Física
+**Objetivo:** Permitir que o usuário escolha entre os perfis de Professor ou Aluno.
 
-**O que você encontrará:**
-- Lista de solicitações pendentes para validação, com detalhes do nome do solicitante e tipo de cadastro.
-- Detalhamento dos documentos enviados, com opção para fazer download.
-- Botões para aprovar ou rejeitar as solicitações, com campo para justificar a decisão.
-- Status da solicitação (Aguardando, Aprovado, Rejeitado).
+### Funcionalidades:
+- Botões para selecionar:
+  - **Professor**
+  - **Aluno**
 
-### 5. Tela de Edição de Cadastro
+---
 
-**Objetivo:** Permitir que os usuários corrijam ou atualizem dados ou documentos.
+## 5. Tela de Cadastro de Pessoa Física - Professor
+**Objetivo:** Coletar os dados necessários de Professores.
 
-**O que você encontrará:**
-- Formulário pré-preenchido com as informações que precisam ser corrigidas.
-- Opção para upload de novos documentos.
-- Mensagens que informam exatamente quais dados ou documentos precisam ser corrigidos.
-- Botão para enviar as correções.
+### Funcionalidades:
+- Formulário com os seguintes campos:
+  - Nome
+  - CPF
+  - Área de Atuação
+  - Especialidade
+- Upload de documentos obrigatórios (ex.: RG, diplomas).
+- Botão para envio do formulário.
 
-### 6. Tela de Status do Cadastro
+---
 
-**Objetivo:** Informar ao usuário o status do seu cadastro.
+## 6. Tela de Cadastro de Pessoa Física - Aluno
+**Objetivo:** Coletar os dados necessários de Alunos.
 
-**O que você encontrará:**
-- Mensagem clara sobre o status do cadastro: "Aguardando Validação", "Rejeitado", "Aprovado".
-- Histórico das ações realizadas no cadastro.
-- Link para editar os dados, caso haja alguma rejeição.
+### Funcionalidades:
+- Formulário com os seguintes campos:
+  - Nome
+  - CPF
+  - Curso
+  - Matrícula
+  - Data de Nascimento
+- Upload de documentos obrigatórios (ex.: RG, comprovante de matrícula).
+- Botão para envio do formulário.
 
-### 7. Tela de Pagamento (Para Alunos)
+---
 
-**Objetivo:** Gerenciar os pagamentos realizados pelos alunos.
+## 7. Tela de Pagamento (Para Alunos)
+**Objetivo:** Gerenciar os pagamentos realizados pelos Alunos.
 
-**O que você encontrará:**
-- Resumo do pagamento, incluindo valor, prazo e forma de pagamento disponível (boleto, cartão de crédito, etc.).
-- Status do pagamento (Pendente, Concluído, Erro no Pagamento).
-- Botão para reencaminhar o pagamento em caso de falha.
-
-### 8. Tela de Pós-Cadastro
-
-**Objetivo:** Oferecer funcionalidades após o cadastro, dependendo do tipo de usuário.
-
-**O que você encontrará:**
-- **Alunos:** Acesso para inscrição em disciplinas, com filtros por curso e semestre.
-- **Professores:** Acesso para inscrição em turmas e horários para lecionar.
-- **Fornecedores:** Opções para envio de propostas e gerenciamento de contratos.
-
-### 9. Tela de Relatórios e Painel Administrativo
-
-**Objetivo:** Apresentar informações detalhadas sobre o andamento do sistema para os administradores.
-
-**O que você encontrará:**
-- Resumo de cadastros aprovados e pendentes.
-- Gráficos de distribuição de alunos por curso e de fornecedores por categoria.
-- Histórico de validações realizadas.
-- Opções para exportar relatórios (PDF, Excel).
+### Funcionalidades:
+- Resumo do pagamento, incluindo:
+  - Valor
+  - Prazo
+  - Forma de pagamento disponível (boleto, cartão de crédito, etc.).
+- Status do pagamento:
+  - **Pendente**
+  - **Concluído**
+  - **Erro no Pagamento**
+- Botão para reencaminhar o pagamento em caso de 
 
 ## Casos de Uso
 
