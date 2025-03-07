@@ -8,7 +8,7 @@ O aplicativo de gestão universitária visa otimizar a administração de cadast
 
 >>> vou deixar de forma resumida e mais completa, mas a outra ainda não arrumei certinho com as telas que estão terminando...
 
-## Funcionalidades do Aplicativo de Gestão Universitária
+## Funcionalidades do Aplicativo
 
 ### Cadastro de Conta
 - Cadastro de conta de aluno, professor ou fornecedor.
