@@ -1,5 +1,5 @@
 # EducaAccessControl
->>> Enfim, tentei fazer mais de um método de explicação, não sei qual vai ficar melhor, deixei um de maneira resumida no inicio e um com a descrição tela por tela, mas ainda não sei qual é melhor. Na parte dos diagramas eu resumi os casos de uso, não sei se querem incluir ou não, qualquer coisa podem remover.
+>>> Enfim, tentei fazer mais de um método de explicação, não sei qual vai ficar melhor, deixei um de maneira resumida no inicio e um com a descrição tela por tela, mas ainda não sei qual é melhor. Fiquem a vontade para mudar o que for necessário!
 
 Este projeto tem como objetivo desenvolver um aplicativo que facilita o gerenciamento de alunos, professores e fornecedores na universidade, incluindo cadastro, validação de documentos e processos de pagamento.
 
@@ -150,107 +150,6 @@ O aplicativo de gestão universitária visa otimizar a administração de cadast
 ## Casos de Uso
 
 ![Descrição da Imagem](Documentacao/req_img_1.png)
-
-### [UC001] Cadastrar Aluno
-
-**Ator:** Aluno  
-**Pré-condição:** O aluno deve ter acesso à internet.  
-**Pós-condição:** O aluno será registrado no banco de dados da universidade e poderá se inscrever em disciplinas.
-
-**Fluxo Principal:**
-1. O aluno seleciona o formulário de cadastro.
-2. O aluno preenche os dados no formulário.
-3. O aluno faz o upload dos documentos necessários.
-4. O aluno envia o formulário.
-5. O administrador valida os documentos e dados do aluno.
-6. O aluno recebe um e-mail com as instruções para o pagamento.
-7. O aluno realiza o pagamento.
-8. O aluno é registrado no banco de dados da universidade.
-9. O aluno pode se inscrever nas disciplinas.
-
-**Fluxos Alternativos:**
-- **Documento inválido:** Se algum documento ou dado estiver incorreto, o aluno receberá um aviso e poderá corrigir as informações.
-- **Falha no pagamento:** Se houver erro no pagamento, o aluno será redirecionado para refazer o pagamento.
-
-### [UC002] Validar Documentos
-
-**Ator:** Administrador  
-**Pré-condição:** O administrador deve estar autenticado no sistema.  
-**Pós-condição:** Os documentos são classificados como válidos ou inválidos.
-
-**Fluxo Principal:**
-1. O administrador abre a tela de solicitações de cadastro.
-2. O administrador seleciona um usuário para validar.
-3. O administrador avalia os documentos enviados.
-4. O administrador classifica os documentos como válidos ou inválidos.
-5. O administrador envia um e-mail confirmando a validação ou solicitação de correção.
-
-**Fluxos Alternativos:**
-- **Documentos inválidos:** O administrador envia um alerta ao aluno, solicitando correções.
-- **Usuário Aluno:** Caso o cadastro seja de um aluno, o sistema envia um e-mail com instruções de pagamento após a validação dos documentos.
-
-### [UC003] Realizar Pagamento
-
-**Ator:** Aluno  
-**Pré-condição:** O aluno deve ter os documentos validados.  
-**Pós-condição:** O pagamento será classificado como ativo ou pendente.
-
-**Fluxo Principal:**
-1. O sistema envia um link para o e-mail do aluno com o formulário de pagamento.
-2. O aluno realiza o pagamento.
-3. O sistema atualiza o status do pagamento como "ativo".
-
-**Fluxo Alternativo:**
-- **Falha no pagamento:** Se ocorrer uma falha, o status de pagamento será "pendente" e o aluno poderá tentar novamente.
-
-### [UC004] Exibir Alerta de Validação
-
-**Ator:** Administrador  
-**Pré-condição:** O administrador deve estar autenticado no sistema.  
-**Pós-condição:** O aluno recebe um alerta de falha na validação com um link para corrigir os dados.
-
-**Fluxo Principal:**
-1. O administrador valida os documentos.
-2. Se algum documento for inválido, um alerta será enviado para o aluno com um link para corrigir os dados.
-
-### [UC005] Cadastrar Professores
-**Atores:** Professores, Funcionário  
-**Pré-condição:** Estar conectado à internet  
-**Pós-condição:** Sistema deve inserir o professor no banco de dados da universidade.
-
-**Fluxo Principal:**
-1. O Professor seleciona o formulário de cadastro.
-2. O Professor insere seus dados no formulário.
-3. O Professor realiza o upload de seus documentos.
-4. O Professor clica no botão para enviar o formulário.
-5. O administrador valida os dados e documentos do professor. [UC002] – Validar Documentos (fluxo alternativo 1).
-6. O sistema insere o professor no banco de dados da universidade.
-7. O sistema envia um e-mail para o professor informando o sucesso do cadastro.
-8. O professor pode se inscrever para ministrar as disciplinas.
-
-**Fluxos Alternativo:**
-- **Documentos ou dados inválidos:** Se os dados ou documentos estiverem incorretos, o sistema envia um alerta de falha e o administrador envia um link para o professor refazer o cadastro.
-- **Edição do Cadastro:** O Professor atualiza seus dados e envia o formulário com os documentos corrigidos. O administrador valida as informações e, após aprovação, o sistema atualiza os dados do professor no banco de dados.
-
-### [UC006] Cadastrar Fornecedores
-
-**Atores:** Fornecedores, Funcionário  
-**Pré-condição:** Estar conectado à internet  
-**Pós-condição:** Sistema deve inserir o fornecedor no banco de dados da universidade.
-
-**Fluxo Principal:**
-1. O Fornecedor seleciona o formulário de cadastro.
-2. O Fornecedor insere seus dados no formulário.
-3. O Fornecedor realiza o upload de seus documentos.
-4. O Fornecedor clica no botão para enviar o formulário.
-5. O administrador valida os dados e documentos do fornecedor. [UC002] – Validar Documentos (fluxo alternativo 1).
-6. O sistema envia um e-mail para o fornecedor informando o sucesso do cadastro.
-7. O sistema insere o fornecedor no banco de dados da universidade.
-8. O fornecedor pode prover a universidade.
-
-**Fluxos Alternativos:**
-- **Documentos ou dados inválidos:** Se os dados ou documentos do fornecedor estiverem incorretos, o sistema envia um alerta de falha e o administrador envia um link para o fornecedor refazer o cadastro.
-- **Edição do Cadastro:** O Fornecedor atualiza seus dados e documentos no formulário e envia para o administrador. Após a validação, o sistema atualiza as informações do fornecedor no banco de dados.
 
 ## Diagrama de Classe
 ![Descrição da Imagem](Documentacao/diag_img_1.png)
