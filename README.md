@@ -37,22 +37,22 @@ O aplicativo EducaAccessControl visa otimizar a administração de cadastros e v
 
 **Funcionalidades:**
 - Formulário com campos como:
-  - Razão Social
-  - Nome Fantasia
-  - CNPJ
-  - Inscrição Estadual
+  - Razão Social.
+  - Nome Fantasia.
+  - CNPJ.
+  - Inscrição Estadual.
 - Botão para envio do formulário.
-
+  
 ### 2.1 Tela de Cadastro de Fornecedores
 **Objetivo:** 
 
 **Funcionalidades:**
 - Formulário com campos como:
-  - Porte da Empresa
-  - Enquadramento Tributário
-  - Endereço Completo
-  - Responsável da Empresa
-  - Informações de Contato
+  - Porte da Empresa.
+  - Enquadramento Tributário.
+  - Endereço Completo.
+  - Responsável da Empresa.
+  - Informações de Contato.
 - Botão para envio do formulário.
 
 ### 3. Tela de Cadastro de Pessoa Física
@@ -60,11 +60,11 @@ O aplicativo EducaAccessControl visa otimizar a administração de cadastros e v
 
 **Funcionalidades:**
 - Formulário com campos como:
-  - Nome Completo
-  - CPF
-  - Data de Nascimento
-  - Escolha entre Aluno e Professor
-  - Endereço
+  - Nome Completo.
+  - CPF.
+  - Data de Nascimento.
+  - Escolha entre Aluno e Professor.
+  - Endereço.
 - Botão para envio do formulário.
 
 ### 3.1 Tela de Cadastro de Pessoa Física - Aluno
@@ -79,8 +79,8 @@ O aplicativo EducaAccessControl visa otimizar a administração de cadastros e v
 **Objetivo:** Gerenciar pagamentos realizados pelos Alunos.
 
 **Funcionalidades:**
-- Escolher o método de pagamento
-- Confirmar e-mail para envio com o passo a passo para efetuar o pagamento
+- Escolher o método de pagamento.
+- Confirmar e-mail para envio com o passo a passo para efetuar o pagamento.
 
 ### 3.2 Tela de Cadastro de Pessoa Física - Professor
 **Objetivo:** Coletar os documentos necessários para Professores.
