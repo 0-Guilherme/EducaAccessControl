@@ -40,7 +40,7 @@ O aplicativo EducaAccessControl visa otimizar a administração de cadastros e v
   - Razão Social
   - Nome Fantasia
   - CNPJ
-  - ...
+  - Inscrição Estadual
 - Botão para envio do formulário.
 
 ### 2.1 Tela de Cadastro de Fornecedores
