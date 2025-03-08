@@ -96,7 +96,7 @@ O aplicativo EducaAccessControl visa otimizar a administração de cadastros e v
 
 ## Protótipo do Projeto
 
-
+![Protótipo do Projeto](Documentacao/proto_img_1.png)
 
 ## Caso de Uso
 
