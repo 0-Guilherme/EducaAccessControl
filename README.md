@@ -91,4 +91,3 @@ O aplicativo EducaAccessControl visa otimizar a administração de cadastros e v
 
 ![Diagrama de Classe](Documentacao/diag_img_1.png)
 
-> **Nota:** Adicione as imagens complementares à documentação para maior clareza.
