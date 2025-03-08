@@ -83,7 +83,7 @@ O aplicativo EducaAccessControl visa otimizar a administração de cadastros e v
 - Upload de documentos obrigatórios.
 - Botão de envio.
 
-## Casos de Uso
+## Caso de Uso
 
 ![Casos de Uso](Documentacao/req_img_1.png)
 
