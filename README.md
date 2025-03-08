@@ -13,7 +13,7 @@ O aplicativo EducaAccessControl visa otimizar a administração de cadastros e v
 ### Seleção de Formulário
 - Escolha entre cadastro de **Pessoa Física** ou **Pessoa Jurídica**.
 - Exibição dos dados e documentos necessários para cada tipo de cadastro.
-- 
+
 ### Cadastro de Conta
 - Cadastro de conta de aluno, professor ou fornecedor.
 - Preenchimento de informações pessoais (nome, CPF, e-mail, etc.).
