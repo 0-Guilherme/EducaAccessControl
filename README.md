@@ -41,6 +41,8 @@ O aplicativo EducaAccessControl visa otimizar a administração de cadastros e v
   - Nome Fantasia.
   - CNPJ.
   - Inscrição Estadual.
+  - Inscrição Municipal.
+  - Data de Fundação.
 - Botão para envio do formulário.
   
 ### 2.1 Tela de Cadastro de Fornecedores
@@ -86,7 +88,10 @@ O aplicativo EducaAccessControl visa otimizar a administração de cadastros e v
 **Objetivo:** Coletar os documentos necessários para Professores.
 
 **Funcionalidades:**
+- Seleção do tipo de documento.
 - Upload de documentos obrigatórios.
+- Seleção do Departamento.
+- Seleção das Disciplinas.
 - Botão de envio.
 
 ## Protótipo do Projeto
