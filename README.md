@@ -37,12 +37,12 @@ O aplicativo EducaAccessControl visa otimizar a administração de cadastros e v
 
 **Funcionalidades:**
 - Formulário com campos como:
-  - Razão Social.
-  - Nome Fantasia.
+  - Razão social.
+  - Nome fantasia.
   - CNPJ.
-  - Inscrição Estadual.
-  - Inscrição Municipal.
-  - Data de Fundação.
+  - Inscrição estadual.
+  - Inscrição municipal.
+  - Data de fundação.
 - Botão para envio do formulário.
   
 ### 2.1 Tela de Cadastro de Fornecedores
@@ -50,11 +50,11 @@ O aplicativo EducaAccessControl visa otimizar a administração de cadastros e v
 
 **Funcionalidades:**
 - Formulário com campos como:
-  - Porte da Empresa.
-  - Enquadramento Tributário.
-  - Endereço Completo.
-  - Responsável da Empresa.
-  - Informações de Contato.
+  - Porte da empresa.
+  - Enquadramento tributário.
+  - Endereço completo.
+  - Responsável da empresa.
+  - Informações de contato.
 - Botão para envio do formulário.
 
 ### 3. Tela de Cadastro de Pessoa Física
@@ -62,10 +62,10 @@ O aplicativo EducaAccessControl visa otimizar a administração de cadastros e v
 
 **Funcionalidades:**
 - Formulário com campos como:
-  - Nome Completo.
+  - Nome completo.
   - CPF.
-  - Data de Nascimento.
-  - Escolha entre Aluno e Professor.
+  - Data de nascimento.
+  - Escolha entre aluno e professor.
   - Endereço.
 - Botão para envio do formulário.
 
@@ -73,7 +73,9 @@ O aplicativo EducaAccessControl visa otimizar a administração de cadastros e v
 **Objetivo:** Coletar os documentos necessários para Alunos.
 
 **Funcionalidades:**
-- Upload de documentos obrigatórios (ex.: RG, Comprovante de Matrícula, Histórico Escolar).
+- informações de cadastro do aluno.
+- Selecionar tipos de documentos (ex.: RG, Comprovante de Matrícula, Histórico Escolar).
+- Upload de documentos obrigatórios.
 - Seleção do curso.
 - Botão de envio.
 
@@ -90,8 +92,8 @@ O aplicativo EducaAccessControl visa otimizar a administração de cadastros e v
 **Funcionalidades:**
 - Seleção do tipo de documento.
 - Upload de documentos obrigatórios.
-- Seleção do Departamento.
-- Seleção das Disciplinas.
+- Seleção do departamento.
+- Seleção das disciplinas.
 - Botão de envio.
 
 ## Protótipo do Projeto
