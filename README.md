@@ -66,7 +66,8 @@ O aplicativo EducaAccessControl visa otimizar a administração de cadastros e v
 **Objetivo:** Coletar os documentos necessários para Alunos.
 
 **Funcionalidades:**
-- Upload de documentos obrigatórios (ex.: RG, Comprovante de Matrícula).
+- Upload de documentos obrigatórios (ex.: RG, Comprovante de Matrícula, Histórico Escolar).
+- Seleção do curso.
 - Botão de envio.
 
 ### 3.1.1 Tela de Pagamento (Para Alunos)
@@ -82,6 +83,10 @@ O aplicativo EducaAccessControl visa otimizar a administração de cadastros e v
 **Funcionalidades:**
 - Upload de documentos obrigatórios.
 - Botão de envio.
+
+## Protótipo do Projeto
+
+
 
 ## Caso de Uso
 
