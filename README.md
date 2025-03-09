@@ -111,7 +111,7 @@ O aplicativo EducaAccessControl visa otimizar a administração de cadastros e v
 ![Fluxo de Pagamento](Documentacao/PagamentoAluno.png)
 
 ### Fluxo Fornecedor
-
+![Fluxo de Fornecedor](Documentacao/CadastrarFornecedores.png)
 ## Caso de Uso
 
 ![Casos de Uso](Documentacao/req_img_1.png)
