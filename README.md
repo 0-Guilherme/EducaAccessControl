@@ -98,7 +98,16 @@ O aplicativo EducaAccessControl visa otimizar a administração de cadastros e v
 
 ## Protótipo do Projeto
 
-![Protótipo do Projeto](Documentacao/proto_img_1.png)
+### 1. Seleção Inicial do Tipo de Cadastro
+![Protótipo do Projeto](Documentacao/SeleçãodeFormulário.png)
+
+### Fluxo Pessoa Física
+
+#### Fluxo Professor
+
+#### Fluxo Aluno
+
+### Fluxo Fornecedor
 
 ## Caso de Uso
 
