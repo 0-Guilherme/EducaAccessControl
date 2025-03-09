@@ -84,7 +84,7 @@ O aplicativo EducaAccessControl visa otimizar a administração de cadastros e v
 
 **Funcionalidades:**
 - Escolher o método de pagamento.
-- Confirmar e-mail para envio com o passo a passo para efetuar o pagamento.
+- Confirmar o e-mail para envio com o passo a passo para efetuar o pagamento.
 
 ### 3.2 Tela de Cadastro de Pessoa Física - Professor
 **Objetivo:** Coletar os documentos necessários para Professores.
