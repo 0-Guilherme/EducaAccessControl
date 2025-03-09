@@ -104,14 +104,18 @@ O aplicativo EducaAccessControl visa otimizar a administração de cadastros e v
 ### Fluxo Pessoa Física
 
 #### Fluxo Professor
+![Fluxo Professor](Documentacao/CadastrarPessoaFísica.png)
+![Fluxo Professor](Documentacao/CadastrarProfessor.png)
 
 #### Fluxo Aluno 
-![Fluxo de Pagamento](Documentacao/CadastroAluno.png)
-
+![Fluxo Aluno](Documentacao/CadastrarPessoaFísica.png)
+![Fluxo Aluno](Documentacao/CadastrarAluno.png)
 ![Fluxo de Pagamento](Documentacao/PagamentoAluno.png)
 
 ### Fluxo Fornecedor
+![Fluxo de Fornecedor](Documentacao/CadastrarPessoaJurídica.png)
 ![Fluxo de Fornecedor](Documentacao/CadastrarFornecedores.png)
+
 ## Caso de Uso
 
 ![Casos de Uso](Documentacao/req_img_1.png)
